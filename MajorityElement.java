@@ -33,7 +33,7 @@ public class MajorityElement {
     } 
 
 
-    //Best Approach :-Using Boyer-Moore Voting Algorithm :
+    //Best Approach :-Using Boyer-Moore Voting Algorithm : O(n)
     //Moore’s Voting Algorithm works by canceling out different elements against each other. Since the majority element appears more than half the time, it survives this cancellation and becomes the final candidate. We then verify if it's truly the majority element or not.
 
     //1. Make the first element (nums[0]) the majority candidate, and its count = 1.
@@ -69,3 +69,4 @@ public class MajorityElement {
         System.out.println(majorityElemnt2(nums));
     }
 }
+
